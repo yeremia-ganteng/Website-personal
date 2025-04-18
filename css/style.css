@@ -1,0 +1,163 @@
+body {
+    font-family: fantasy;
+    background-color: aliceblue;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.main-profile {
+    height: 200px;
+    width: 200px;
+    background-image: url(https://th.bing.com/th/id/OIP.HH1stuszQE_PPB2HPYGlPQHaF5?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.image-1 {
+    height: 200px;
+    width: 200px;
+    background-image: url(https://th.bing.com/th/id/OIP.HH1stuszQE_PPB2HPYGlPQHaF5?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 8px;
+}
+
+nav>a:hover{
+    color: blueviolet;
+}
+
+.banner-img {
+    height: 600px;
+    background-size: cover;
+    background-position: top;
+}
+
+.banner-1 {
+    background-image: url(https://wallpapercave.com/wp/wp2632332.jpg);
+}
+
+.banner-2 {
+    background-image: url(https://wallpapercave.com/wp/wp8890483.jpg);
+}
+
+.banner-3 {
+    background-image: url(https://wallpapers.com/images/hd/one-piece-characters-j8r0jla5te16ydqq.jpg);
+}
+
+#my-profile-section {
+    justify-items: center;
+    padding-bottom: 15px;
+}
+
+.profile-card {
+    width: 500px;
+    border: 1px solid;
+    text-align: -webkit-center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.p-image-bg {
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 10px;
+}
+.p-image1 {
+    background-image: url(\assets\image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+main>section {
+    height: 800px;
+}
+
+.section-content {
+    text-align: center;
+}
+
+.message-header {
+    padding: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 1px;
+    width: 60%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.form-group {
+    padding-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"],
+textarea {
+    width: 100%;
+}
+
+.result-container {
+    flex: 1;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.result-bg{
+    background-color: white;
+    padding: 10px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+}
